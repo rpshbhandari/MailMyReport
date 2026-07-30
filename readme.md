@@ -126,10 +126,19 @@ The report generated output in a format other than PDF or Excel. Verify the repo
 
 For general Business Central email configuration, see [Microsoft Learn: Email Setup](https://learn.microsoft.com/dynamics365/business-central/).
 
-## License & Attribution
 
-Default Publisher. For license terms, see your deployment agreement.
-
+## License & Source Code Availability
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPLv3)**.
+### What this means for Business Central Partners & ISVs:
+* **Reciprocity Required:** You are free to use, modify, and extend this app. However, if you modify this code and run it as part of a hosted, SaaS, or BC Online service (or distribute compiled `.app` packages), **you must make your modified source code publicly available under the AGPLv3 license**.
+* **BC Resource Exposure Policy:** Any distributed `.app` builds derived from this source must maintain full source access for users. In `app.json`, you must set:
+ ```json
+ "resourceExposurePolicy": {
+     "allowDebugging": true,
+     "allowDownloadingSource": true,
+     "includeSourceInSymbolFile": true
+ }
+```
 ---
 
 **Version:** 1.0.0.0  
