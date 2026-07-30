@@ -1,7 +1,7 @@
 {
   "id": "13e98aed-7909-408a-a5b0-7c89f7a398cb",
   "name": "MailMyReport",
-  "publisher": "Default Publisher",
+  "publisher": "Rupesh Bhandari",
   "version": "1.0.0.0",
   "brief": "Email reports to configured recipients.",
   "description": "Adds a recipient list and email-sending action for Report Inbox records in Business Central.",
