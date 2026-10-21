@@ -24,7 +24,7 @@ MailMyReport is a Business Central extension that enables automated email delive
 
 ### 1. Install the Extension
 
-Deploy the `.app` file to your Business Central environment.
+Download the zip from [Releases](https://github.com/rpshbhandari/MailMyReport/releases), extract the `.app` and deploy it to your Business Central environment.
 
 ### 2. Configure a Report
 
